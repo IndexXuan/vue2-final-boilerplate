@@ -23,14 +23,14 @@ yarn
 
 ### Compiles and hot-reloads for development
 ```
-yarn serve / yarn dev
+yarn dev
 yarn vite
 ```
 
 ### Compiles and minifies for production
 ```
 yarn build
-(vite build, just for test: BUILD=true MODERN=true yarn vite)
+yarn vite:build(just experimental)
 ```
 
 ### Run your unit tests

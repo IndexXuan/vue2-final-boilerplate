@@ -9,11 +9,14 @@
     "skipLibCheck": true,
     "esModuleInterop": true,
     "allowSyntheticDefaultImports": true,
+    "forceConsistentCasingInFileNames": true,
+    "noUnusedLocals": true,
     "sourceMap": true,
     "baseUrl": ".",
     "types": [
       "webpack-env",
-      "jest"
+      "jest",
+      "unplugin-vue2-script-setup/types"
     ],
     "paths": {
       "@/*": [
@@ -26,6 +29,9 @@
       "dom.iterable",
       "scripthost"
     ]
+  },
+  "vueCompilerOptions": {
+    "experimentalCompatMode": 2
   },
   "include": [
     "src/**/*.ts",
