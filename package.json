@@ -45,7 +45,7 @@
     "sass-loader": "^8.0.2",
     "typescript": "~4.4.2",
     "unplugin-vue2-script-setup": "^0.5.4",
-    "vue-cli-plugin-vite": "~1.4.4",
+    "vue-cli-plugin-vite": "~1.4.5",
     "vue-template-compiler": "^2.6.11",
     "vue-tsc": "^0.3.0"
   },
