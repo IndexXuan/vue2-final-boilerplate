@@ -4,8 +4,12 @@ const scriptSetupOptions = {
   refTransform: false,
 }
 
-/** * @type {import('@vue/cli-service').ProjectOptions} */
+/** @type {import('@vue/cli-service').ProjectOptions} */
 module.exports = {
+  publicPath: process.env.PUBLIC_URL,
+  transpileDependencies: [],
+  productionSourceMap: process.env.GENERATE_SOURCEMAP === 'true',
+  lintOnSave: process.env.NODE_ENV !== 'production',
   configureWebpack: {
     plugins: [require('unplugin-vue2-script-setup/webpack')(scriptSetupOptions)],
   },
