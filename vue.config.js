@@ -10,6 +10,12 @@ module.exports = {
   transpileDependencies: [],
   productionSourceMap: process.env.GENERATE_SOURCEMAP === 'true',
   lintOnSave: process.env.NODE_ENV !== 'production',
+  devServer: {
+    overlay: {
+      warnings: false,
+      errors: true,
+    },
+  },
   configureWebpack: {
     plugins: [require('unplugin-vue2-script-setup/webpack')(scriptSetupOptions)],
   },

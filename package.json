@@ -5,7 +5,7 @@
   "scripts": {
     "commit": "git cz",
     "dev": "vue-cli-service serve",
-    "build": "node ./bin/build",
+    "build": "vue-tsc --noEmit && node ./bin/build",
     "vite": "node ./bin/vite",
     "vite:build": "vue-tsc --noEmit && BUILD=true MODERN=true yarn vite",
     "lint": "vue-cli-service lint",

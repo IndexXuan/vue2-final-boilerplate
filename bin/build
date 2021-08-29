@@ -13,6 +13,6 @@ console.log(`running: vue-cli-service ${cmd.join(' ')}`)
 const buildService = spawn('vue-cli-service', cmd, { cwd, stdio: 'inherit' })
 
 buildService.on('close', (code) => {
-  console.log(`[ ${where} build ${mode} ${code === 0 ? 'success' : 'fail'} ]`)
+  console.log(`[ build ${mode} ${code === 0 ? 'success' : 'fail'} ]`)
   process.exit(code)
 })
