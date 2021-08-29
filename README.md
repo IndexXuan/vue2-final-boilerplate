@@ -53,6 +53,7 @@ yarn lint
 - stylelint
 - auto-routing
 - micro-frontend
+- more env mode for deploy, like `.env.staging` and update scripts.build for more modes
 
 ## Links
 - [vue-cli-plugin-vite](https://github.com/IndexXuan/vue-cli-plugin-vite)
