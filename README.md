@@ -50,12 +50,13 @@ yarn lint
 - use latest eslint-vue-plugin and Vue 3 compat
 - supoort more env(development/staging/test/production and so on)
 
-## What's more
-- stylelint
-- auto-routing
-- micro-frontend
+## TODO
+- `composables` dir
+- auto-routing(maybe unplugin-vue2-auto-routing)
 - tailwind/windicss
 - tsdoc
+- micro-frontend
+- stylelint
 
 ## Links
 - [vue-cli-plugin-vite](https://github.com/IndexXuan/vue-cli-plugin-vite)
