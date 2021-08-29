@@ -7,6 +7,7 @@
 - Language: [TypeScript](https://www.typescriptlang.org/)
 - IDE/LSP: [Volar](https://github.com/johnsoncodehk/volar) or [Vim coc-volar](https://github.com/yaegassy/coc-volar)
 - Tools: [vue-cli](https://github.com/vuejs/vue-cli) & [vite](https://vitejs.dev/) by [vue-cli-plugin-vite](https://github.com/IndexXuan/vue-cli-plugin-vite)
+- Lint: use latest [eslint-plugin-vue](https://eslint.vuejs.org/rules/no-deprecated-slot-scope-attribute.html) with Vue 2 (Some Vue 3 style rules lile deprecated-filter/v-slot)
 
 ## Why
 - Vue 2 for legacy browsers and old projects.
