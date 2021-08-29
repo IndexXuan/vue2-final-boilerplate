@@ -1,0 +1,18 @@
+#!/usr/bin/env node
+
+const path = require('path')
+const { spawn } = require('child_process')
+const cwd = path.resolve(__dirname, '../')
+
+const extraArgv = process.argv.slice(2)
+const mode = process.env.VUE_CLI_MODE || 'production'
+
+const cmd = ['build', '--mode', mode, ...extraArgv].filter(Boolean)
+console.log(`running: vue-cli-service ${cmd.join(' ')}`)
+
+const buildService = spawn('vue-cli-service', cmd, { cwd, stdio: 'inherit' })
+
+buildService.on('close', (code) => {
+  console.log(`[ ${where} build ${mode} ${code === 0 ? 'success' : 'fail'} ]`)
+  process.exit(code)
+})

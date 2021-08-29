@@ -48,12 +48,14 @@ yarn lint
 - support vite
 - typescript and composition-api first(with script setup)
 - use latest eslint-vue-plugin and Vue 3 compat
+- supoort more env(development/staging/test/production and so on)
 
 ## What's more
 - stylelint
 - auto-routing
 - micro-frontend
-- more env mode for deploy, like `.env.staging` and update scripts.build for more modes
+- tailwind/windicss
+- tsdoc
 
 ## Links
 - [vue-cli-plugin-vite](https://github.com/IndexXuan/vue-cli-plugin-vite)
