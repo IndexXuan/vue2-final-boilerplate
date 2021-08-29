@@ -43,3 +43,17 @@ yarn test:unit
 ```
 yarn lint
 ```
+
+## Different with vue-cli
+- support vite
+- typescript and composition-api first(with script setup)
+- use latest eslint-vue-plugin and Vue 3 compat
+
+## What's more
+- stylelint
+- auto-routing
+- micro-frontend
+
+## Links
+- [vue-cli-plugin-vite](https://github.com/IndexXuan/vue-cli-plugin-vite)
+
